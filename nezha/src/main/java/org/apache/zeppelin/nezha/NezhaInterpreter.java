@@ -31,14 +31,14 @@ public class NezhaInterpreter extends Interpreter {
 
   static final String DEFAULT_CREDENTIAL =
       "None";
-  static final String DEFAULT_ENDPOINT = "https://v2.qubole.net/api/v2/commands";
+  static final String DEFAULT_ENDPOINT = "None";
 
   static {
     LOGGER.info("Bootstrapping Nezha Interpreter");
     Interpreter.register("nezha", "nezha", NezhaInterpreter.class.getName(),
         new InterpreterPropertyBuilder()
             .add(QUBOLE_ENDPOINT, DEFAULT_ENDPOINT,
-                "Default = https://v2.qubole.net/api/v2/commands")
+                "Default = None")
             .add(QUBOLE_API_KEY, DEFAULT_CREDENTIAL,
                 "Default API Key = " +
                     "None")
