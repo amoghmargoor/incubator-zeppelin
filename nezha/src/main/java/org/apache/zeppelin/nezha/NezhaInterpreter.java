@@ -30,7 +30,7 @@ public class NezhaInterpreter extends Interpreter {
   static final String QUBOLE_API_KEY = "qubole.api.key";
 
   static final String DEFAULT_CREDENTIAL =
-      "CY1zpS2NvKsHNqhzRRZttSMyavqYxH4fg6spsMWtxpQwsAEy15soEnqshktuWzny";
+      "None";
   static final String DEFAULT_ENDPOINT = "https://v2.qubole.net/api/v2/commands";
 
   static {
