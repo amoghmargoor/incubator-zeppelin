@@ -41,7 +41,7 @@ public class NezhaInterpreter extends Interpreter {
                 "Default = https://v2.qubole.net/api/v2/commands")
             .add(QUBOLE_API_KEY, DEFAULT_CREDENTIAL,
                 "Default API Key = " +
-                    "CY1zpS2NvKsHNqhzRRZttSMyavqYxH4fg6spsMWtxpQwsAEy15soEnqshktuWzny")
+                    "None")
             .build());
   }
 
