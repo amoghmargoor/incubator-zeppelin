@@ -86,7 +86,7 @@ public class NezhaInterpreter extends Interpreter {
       final String resultValueResults = resultValue.getResults();
       result =
           new InterpreterResult(InterpreterResult.Code.SUCCESS,
-          resultValueResults);
+          "%table " + resultValueResults);
     } catch (Exception e) {
       result = new InterpreterResult(InterpreterResult.Code.ERROR, e.getMessage());
     }
